@@ -1,7 +1,7 @@
 ---
 title: Java[StringSplitting]
 date: 2024-03-21 17:34:00 +0800
-categories: [CS, OS]
+categories: [language, Java]
 tags: [Java, String]
 ---
 # 문자열 분리
