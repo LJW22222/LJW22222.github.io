@@ -25,7 +25,7 @@ tags: [Network,Cookie]
 - 세션은 서버에서 관리되기 떄문에 보안적인 측면에서 좋습니다.
 
 ## Cookie
- ![http-network-basic-cookie-png](/assets/img/NetWork/http-network-basic-cookie.png){: width="700" height="600" }
+ ![http-network-basic-cookie-png](/assets/img/cs/NetWork/http-network-basic-cookie.png){: width="700" height="600" }
 - 클라이언트 측에 작은 데이터 조각을 저장하는 기술입니다.         
 - 세션 ID나 사용자의 선호 설정과 같은 정보를 저장합니다.         
 - 클라이언트 브라우저에 저장되기 때문에 브라우저를 닫거나 재시작해도 쿠키는 유지됩니다.         

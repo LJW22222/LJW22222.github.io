@@ -16,7 +16,7 @@ tags: [Network,Cahe]
 
 ## Cache를 적용하지 않는 경우
 ### 동작 과정
- ![http-network-basic-no-cache-png](/assets/img/NetWork/http-network-basic-no-cache.png){: width="700" height="600" }
+ ![http-network-basic-no-cache-png](/assets/img/cs/NetWork/http-network-basic-no-cache.png){: width="700" height="600" }
 1. 첫번쨰로 요청이 옵니다
 2. 서버에서는 요청 메세지를 받고, 이에 맞는 데이터 새로 만들어 반환합니다.
 3. 두번쨰로 같은 요청이 들어옵니다.
@@ -28,7 +28,7 @@ tags: [Network,Cahe]
 
 ## Cache를 적용하는 경우
 ### 동작 과정
- ![http-network-basic-in-cache-png](/assets/img/NetWork/http-network-basic-in-cache.png){: width="700" height="600" }
+ ![http-network-basic-in-cache-png](/assets/img/cs/NetWork/http-network-basic-in-cache.png){: width="700" height="600" }
  - cache-control: max-age= 헤더를 추가해야 합니다.
 1. 첫번째로 요청이 들어옵니다
 2. 서버에서는 요청 메세지를 받고, 이에 맞는 데이터를 새로 만들어 반환합니다.
@@ -60,7 +60,7 @@ tags: [Network,Cahe]
 - 동작 과정은 Last-Modified와 유사하지만, 다른점은 데이터 최종 수정일 대신 ETage의 버전이름으로 비교해서 동작합니다. 
 
 ## 동작 과정
-![http-network-basic-cache-header-png](/assets/img/NetWork/http-network-basic-cache-header.png){: width="700" height="600" }
+![http-network-basic-cache-header-png](/assets/img/cs/NetWork/http-network-basic-cache-header.png){: width="700" height="600" }
 
 ### 검증 과정 - Last-Modified
 1. 첫 번째로 클라이언트가 서버로 요청 메세지를 전송합니다.

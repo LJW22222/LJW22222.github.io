@@ -29,21 +29,21 @@ HTTP는 Hypertext Transfer Protocol의 약자로, 웹 상에서 정보를 주고
 
 ## HTTP의 특징
 1. 클라이언트 서버 구조
- ![http-network-basic-client-server-png](/assets/img/NetWork/http-network-basic-client-server.png){: width="700" height="600" }<br/>
+ ![http-network-basic-client-server-png](/assets/img/cs/NetWork/http-network-basic-client-server.png){: width="700" height="600" }<br/>
     - 클라이언트는 서버에 요청을 보내고, 응답을 대기합니다.
     - 서버는 요청에 대한 결과를 만들어 클라이언트에 응답합니다.
 2. 무상태 프로토콜 (stateless )
- ![http-network-basic-clien-server-stateful-png](/assets/img/NetWork/http-network-basic-clien-server-stateful.png){: width="700" height="600" }<br/>
+ ![http-network-basic-clien-server-stateful-png](/assets/img/cs/NetWork/http-network-basic-clien-server-stateful.png){: width="700" height="600" }<br/>
 - 서버가 클라이언트 상태를 보존하지 않습니다.
     - 장점 : 서버 확장성이 높습니다. ( 스케일 아웃 )
     - 단점 : 클라이언트가 추가로 데이터를 전송해야합니다.
-![http-network-basic-client-server-stateful-fail-png](/assets/img/NetWork/http-network-basic-client-server-stateful-fail.png){: width="700" height="600" }<br/>
+![http-network-basic-client-server-stateful-fail-png](/assets/img/cs/NetWork/http-network-basic-client-server-stateful-fail.png){: width="700" height="600" }<br/>
 - 서버에 장애가 발생하면 응답이 불가능할 수 있습니다.
 
 3. 상태 유지
- ![http-network-basic-client-server-stateless-png](/assets/img/NetWork/http-network-basic-client-server-stateless.png){: width="700" height="600" }<br/>
+ ![http-network-basic-client-server-stateless-png](/assets/img/cs/NetWork/http-network-basic-client-server-stateless.png){: width="700" height="600" }<br/>
 - 항상 같은 서버가 유지되어야 합니다.
- ![http-network-basic-client-server-stateless-fail-png](/assets/img/NetWork/http-network-basic-client-server-stateless-fail.png){: width="700" height="600" }<br/>
+ ![http-network-basic-client-server-stateless-fail-png](/assets/img/cs/NetWork/http-network-basic-client-server-stateless-fail.png){: width="700" height="600" }<br/>
 - 중간에 서버에 장애가 발생하여도, 다른 서버를 이용하여 응답이 가능합니다.
 
 ## 결론
