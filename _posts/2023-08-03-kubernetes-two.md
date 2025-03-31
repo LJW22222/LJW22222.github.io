@@ -1,8 +1,8 @@
 ---
 title: Kuberntes[Setting]
 date: 2023-08-03 22:21:00 +0800
-categories: [CT, Kubernetes]
-tags: [CT, Kubernetes]
+categories: [Tech, Kubernetes]
+tags: [Tech, Kubernetes]
 ---
 # Kubernetes
 이전에 라즈베리파이와 쿠버네티스에 대해 알아보았습니다.  

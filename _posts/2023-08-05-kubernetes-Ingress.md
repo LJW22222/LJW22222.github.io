@@ -1,8 +1,8 @@
 ---
 title: Kuberntes[Nginx]
 date: 2023-08-05 19:46:00 +0800
-categories: [CT, Kubernetes]
-tags: [CT, Kubernetes, Nginx]
+categories: [Tech, Kubernetes]
+tags: [Tech, Kubernetes, Nginx]
 ---
 # Nginx Ingress Controller
 Nginx Ingress Controller란 Nginx를 사용하여 Ingress기능을 이용하는데 필요한 Ingress Controller를 생성하는 방법입니다.  

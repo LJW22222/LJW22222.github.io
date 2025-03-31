@@ -10,7 +10,7 @@ TCP의 연결 과정인데, 신뢰성을 확보할 때 하는 작입니다.<br/>
 
 ### 3 way handshake
 TCP의 연결 과정은 3단계의 과정이 필요합니다.
-![http-network-3-way-handshake-png](/assets/img/spring/http-network-3-way-handshake.png){: width="700" height="600" }<br/>
+![http-network-3-way-handshake-png](/assets/img/NetWork/http-network-3-way-handshake.png){: width="700" height="600" }<br/>
 위의 그림처럼 3단계의 과정이 필요합니다.<br/>
 1. SYN 단계 - 클라이언트가 서버쪽으로 ISN을 담아 SYN을 보내줍니다.
     - SYN : 연결요청 플래그입니다.
@@ -22,7 +22,7 @@ TCP의 연결 과정은 3단계의 과정이 필요합니다.
 
 ### 4 way handshake
 TCP 연결 해제 과정은 4단계의 과정을 거칩니다.
-![http-network-3-way-handshake-png](/assets/img/spring/http-network-4-way-handshake.png){: width="700" 
+![http-network-3-way-handshake-png](/assets/img/NetWork/http-network-4-way-handshake.png){: width="700" 
 height="600" }<br/>
 1. 클라이언트가 연결을 닫으려고 할 때, FIN으로 설정된 세그먼트를 보냅니다.
 그리고 클라이언트는 FIN_WAIT_1 상태로 들어가게 되고나서 서버의 응답을 기다립니다.

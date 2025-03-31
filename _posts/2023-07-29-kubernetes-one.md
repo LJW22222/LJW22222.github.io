@@ -1,8 +1,8 @@
 ---
 title: Kuberntes
 date: 2023-07-29 20:21:00 +0800
-categories: [CT, Kubernetes]
-tags: [CT, Kubernetes]
+categories: [Tech, Kubernetes]
+tags: [Tech, Kubernetes]
 ---
 # Kubernetes
  ![kubernetes-logo-png](/assets/img/kubernetes/kubernetes-logo.png){: width="700" height="600" }<br/>
